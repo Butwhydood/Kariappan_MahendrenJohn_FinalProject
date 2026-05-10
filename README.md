@@ -31,7 +31,8 @@ Example:
 python main.py input.pdf output.docx
 ```
 https://github.com/Butwhydood/Kariappan_MahendrenJohn_FinalProject/blob/78f294712a840517b16ccfb1b264214ae98d9e47/data/exampleforreadme1.png
-This will convert `input.pdf` to `output.docx`.
+This will convert 
+`input.pdf` to `output.docx`.
 
 ### Bulk Conversion
 To convert all supported files in a folder to a specific format, use the `bulk_convert` function. Run the script as follows:
@@ -44,6 +45,7 @@ Example:
 ```bash
 python main.py Tobeconverted txt
 ```
+data/exampleforreadme2.png
 This will convert all supported files in the `Tobeconverted` folder to the TXT format.
 
 ### Supported Conversions
