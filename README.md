@@ -1,6 +1,6 @@
-# Python File Converter in CLI
+# File Converter CLI
 
-The Python File Converter in CLI is a command-line tool designed to convert files between various formats, including PDF, DOCX, TXT, images, Excel files, and more. This tool is built using Python and supports bulk conversion as well as single file conversion.
+The File Converter CLI is a command-line tool designed to convert files between various formats, including PDF, DOCX, TXT, images, Excel files, and more. This tool is built using Python and supports bulk conversion as well as single file conversion.
 
 ## Features
 - Convert between PDF, DOCX, and TXT formats.
@@ -29,7 +29,6 @@ python main.py <input_file> <output_file>
 Example:
 ```bash
 python main.py input.pdf output.docx
-
 ```
 This will convert `input.pdf` to `output.docx`.
 
@@ -37,12 +36,12 @@ This will convert `input.pdf` to `output.docx`.
 To convert all supported files in a folder to a specific format, use the `bulk_convert` function. Run the script as follows:
 
 ```bash
-python main.py bulk <input_folder> <target_extension>
+python main.py <input_folder> <target_extension>
 ```
 
 Example:
 ```bash
-python main.py bulk Tobeconverted txt
+python main.py Tobeconverted txt
 ```
 This will convert all supported files in the `Tobeconverted` folder to the TXT format.
 
@@ -68,6 +67,3 @@ This project is licensed under the MIT License. Feel free to use and modify it a
 
 ## Contributing
 Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
-
-## YouTube Link
-https://youtu.be/1IaNE5PsrRE?si=rUi8n-qDxXVQTr_u
