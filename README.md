@@ -12,6 +12,7 @@ The File Converter CLI is a command-line tool designed to convert files between 
 ## Prerequisites
 - Python 3.14 or higher installed on your system.
 - Install the required dependencies using the `requirements.txt` file.
+- The Latest version of LibreOffice for document conversion
 
 ```bash
 pip install -r requirements.txt
